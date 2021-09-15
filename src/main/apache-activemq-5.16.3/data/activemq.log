@@ -1,0 +1,72 @@
+2021-09-15 19:29:51,024 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@d88f12: startup date [Wed Sep 15 19:29:51 CST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-09-15 19:29:51,584 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:29:51,687 | INFO  | PListStore:[D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-09-15 19:29:51,824 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:redmibook15-pro-6207-1631705391698-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:29:51,841 | INFO  | Listening for connections at: tcp://redmibook15-pro:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:29:51,852 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:29:51,857 | INFO  | Listening for connections at: amqp://redmibook15-pro:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:29:51,858 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:29:51,861 | INFO  | Listening for connections at: stomp://redmibook15-pro:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:29:51,862 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:29:51,865 | INFO  | Listening for connections at: mqtt://redmibook15-pro:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:29:51,866 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:29:51,870 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-09-15 19:29:51,927 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-09-15 19:29:52,043 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@d081ec{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-09-15 19:29:52,087 | INFO  | Listening for connections at ws://redmibook15-pro:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-09-15 19:29:52,087 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:29:52,089 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:redmibook15-pro-6207-1631705391698-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:29:52,089 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:29:52,094 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 99817 mb of usable space. - resetting to maximum available disk space: 99817 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:29:52,594 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-09-15 19:29:52,594 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-09-15 19:34:55,987 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@cac583: startup date [Wed Sep 15 19:34:55 CST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-09-15 19:34:56,490 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:34:56,523 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-09-15 19:34:56,526 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-09-15 19:34:56,529 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2021-09-15 19:34:56,546 | INFO  | PListStore:[D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-09-15 19:34:56,676 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:redmibook15-pro-3955-1631705696557-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:34:56,716 | INFO  | Listening for connections at: tcp://redmibook15-pro:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:34:56,717 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:34:56,722 | INFO  | Listening for connections at: amqp://redmibook15-pro:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:34:56,736 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:34:56,740 | INFO  | Listening for connections at: stomp://redmibook15-pro:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:34:56,741 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:34:56,744 | INFO  | Listening for connections at: mqtt://redmibook15-pro:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:34:56,746 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:34:56,749 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-09-15 19:34:56,797 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-09-15 19:34:56,883 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1186a7b{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-09-15 19:34:56,920 | INFO  | Listening for connections at ws://redmibook15-pro:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-09-15 19:34:56,921 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:34:56,921 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:redmibook15-pro-3955-1631705696557-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:34:56,923 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:34:56,929 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 99825 mb of usable space. - resetting to maximum available disk space: 99825 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:34:57,373 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-09-15 19:34:57,374 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-09-15 19:36:50,781 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@cac583: startup date [Wed Sep 15 19:36:50 CST 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-09-15 19:36:51,290 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:36:51,325 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-09-15 19:36:51,327 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2021-09-15 19:36:51,330 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2021-09-15 19:36:51,349 | INFO  | PListStore:[D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-09-15 19:36:51,502 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:redmibook15-pro-4018-1631705811369-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:36:51,544 | INFO  | Listening for connections at: tcp://redmibook15-pro:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:36:51,545 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:36:51,551 | INFO  | Listening for connections at: amqp://redmibook15-pro:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:36:51,552 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:36:51,556 | INFO  | Listening for connections at: stomp://redmibook15-pro:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:36:51,557 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:36:51,560 | INFO  | Listening for connections at: mqtt://redmibook15-pro:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-09-15 19:36:51,561 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:36:51,565 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-09-15 19:36:51,612 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-09-15 19:36:51,684 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@118f0b2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-09-15 19:36:51,720 | INFO  | Listening for connections at ws://redmibook15-pro:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-09-15 19:36:51,721 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-09-15 19:36:51,724 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:redmibook15-pro-4018-1631705811369-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:36:51,724 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:36:51,729 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: D:\download\programming\IntelliJ_IDEA\工具类\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 99823 mb of usable space. - resetting to maximum available disk space: 99823 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-09-15 19:36:52,184 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-09-15 19:36:52,184 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
